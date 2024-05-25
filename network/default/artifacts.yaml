@@ -2,6 +2,7 @@ apiVersion: network.app.kuid.dev/v1alpha1
 kind: Network
 metadata:
   name: topo3nodesrl.default
+  namespace: default
   annotations:
     kform.dev/block-type: resource
     kform.dev/resource-type: kubernetes_manifest 
