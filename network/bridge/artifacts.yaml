@@ -1,17 +1,17 @@
 apiVersion: network.app.kuid.dev/v1alpha1
 kind: Network
 metadata:
-  name: topo3nodesrl.vpc1
+  name: topo3nodesrl.vpc100
   namespace: default
   annotations:
     kform.dev/block-type: resource
     kform.dev/resource-type: kubernetes_manifest 
-    kform.dev/resource-id: vpc1
+    kform.dev/resource-id: vpc100
 spec:
   topology: topo3nodesrl
   bridgeDomains:
-  - name: br10
-    networkID: 10
+  - name: br100
+    networkID: 100
     interfaces:
     - endpoint: e1-1
       node: edge01

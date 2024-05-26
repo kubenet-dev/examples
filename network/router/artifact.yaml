@@ -1,17 +1,17 @@
 apiVersion: network.app.kuid.dev/v1alpha1
 kind: Network
 metadata:
-  name: topo3nodesrl.vpc2
+  name: topo3nodesrl.vpc200
   namespace: default
   annotations:
     kform.dev/block-type: resource
     kform.dev/resource-type: kubernetes_manifest 
-    kform.dev/resource-id: vpc2
+    kform.dev/resource-id: vpc200
 spec:
   topology: topo3nodesrl
   routingTables:
-  - name: rt20
-    networkID: 20
+  - name: rt200
+    networkID: 200
     interfaces:
     - endpoint: e1-1
       node: edge01
